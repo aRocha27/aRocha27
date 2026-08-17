@@ -6,7 +6,6 @@
 </p>
 
 <p align="center">
-  <a href="https://perkorsi.com">perkorsi.com</a> ·
   BSc Computer Science Engineering (European Programme) @ <a href="https://www.isec.pt/">Instituto Politécnico de Coimbra</a><br/>
   Erasmus+ EU mobility @ HAW Hamburg (2025–2026) · expected graduation March 2027
 </p>
