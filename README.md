@@ -1,14 +1,22 @@
 <h1 align="center">Hi, I'm Antonio Rocha 👋</h1>
 
 <p align="center">
-  <em>Computer Science Engineering student · AI/ML & full-stack systems builder</em><br/>
+  <em>Computer Science Engineering student · AI systems, software architecture & full-stack development</em><br/>
   Hamburg, DE 🇩🇪 · Coimbra, PT 🇵🇹
 </p>
 
 <p align="center">
   BSc Computer Science Engineering (European Programme) @ <a href="https://www.isec.pt/">Instituto Politécnico de Coimbra</a><br/>
-  Erasmus+ EU mobility @ HAW Hamburg (2025–2026) · expected graduation March 2027
+  European Computer Science @ HAW Hamburg (2025–2027) · expected graduation May 2027
 </p>
+
+---
+
+## 💼 Relevant Experience
+
+### OMP — Orders Management Platform · Bruker Portugal
+
+Independently designed, architected and built a production order-management application used by Bruker Portugal. The platform modernizes workflows for orders, clients, invoicing, recognition, reports and administration, with a responsive React/Vite frontend, Node.js/Express backend, SQL Server integration, role-aware workflows, validation and Docker deployment.
 
 ---
 
@@ -19,7 +27,7 @@
 | Project | What it is | Stack |
 |---|---|---|
 | [`atlas-agent-os`](https://github.com/aRocha27/atlas-agent-os) | Local-first AI agent orchestration OS — layered permission pipeline (Tool Gateway → Permission Broker → Guardian), SHA-256 hash-chained append-only audit log with verifier, streaming Ollama tool-use with capability-scored agent assignment. **Status:** active, ~18k LOC, 26/26 Vitest tests passing, containment tests enforce no module-level `child_process` | TypeScript · Node/Express · Next.js · SQLite |
-| [`llm-from-scratch`](https://github.com/aRocha27/llm-from-scratch) | Transformer built from scratch in PyTorch — character tokenizer, sinusoidal positional encoding, single-head self-attention, causal masking, pre-norm GPT blocks, LM head + next-token loss. No `nn.MultiheadAttention`/`nn.Transformer`. **Status:** single-head forward pass complete & verified end-to-end (`uv run python main.py`); 10-step pipeline documented with 4 architecture diagrams; training loop + multi-head next | Python · PyTorch · NumPy |
+| [`llm-from-scratch`](https://github.com/aRocha27/llm-from-scratch) | Transformer built from scratch in PyTorch — character tokenizer, sinusoidal positional encoding, single-head self-attention, causal masking, pre-norm GPT blocks, LM head + next-token loss. No `nn.MultiheadAttention`/`nn.Transformer`. **Status:** single-head forward pass complete and verified end-to-end (`uv run python main.py`); 10-step pipeline documented with 4 architecture diagrams; training loop and multi-head attention are next | Python · PyTorch · NumPy |
 | [`rocha-tea`](https://github.com/aRocha27/rocha-tea) | Tea e-commerce MVP — server-validated Stripe checkout, Supabase RLS schema, and a hand-written GLSL silk-flow shader on the marketing site | Express · Supabase · Stripe · Next.js · Three.js |
 | [`sonarWork`](https://github.com/aRocha27/sonarWork) | Underwater object detection on Ping360 sonar scans — YOLOv8 trained over 200 epochs, with a red-excess + density post-processor that classifies each detection into low/medium/high acoustic reflection | Python · ultralytics · OpenCV |
 | [`dd-devdiary`](https://github.com/aRocha27/dd-devdiary) | VS Code extension to save, organize, and annotate code snippets as structured notes — tags, priorities, gutter indicators, and JSON/TXT export. **Status:** functional v0.0.1 build with vscode-test unit tests (storage + extension), esbuild + ESLint + tsc pipeline; pre-release, not on Marketplace | TypeScript · VS Code API · esbuild |
@@ -28,7 +36,7 @@
 
 | Project | What it is | Stack |
 |---|---|---|
-| 🔒 [Percorsi — AI Travel Planner SaaS](https://github.com/Sir-Olexander/Percorsi) <sub>(team of 4 · ~36 of 163 commits mine)</sub> | Co-developer (billing & AI lead): I owned TOCTOU-safe billing caps (`pg_advisory_xact_lock`), the PL/pgSQL `check_rate_limit` SECURITY DEFINER rate limiter, Efraimidis-Spirakis weighted + geo-diverse trending, and the centralized entitlements/billing system; also built OAuth login, Stripe Checkout, and Groq AI itinerary generation with PDF + Google Calendar export. **Live:** perkorsi.com | Next.js · Supabase · Stripe · Groq · Expo |
+| 🔒 [Percorsi — AI Travel Planner SaaS](https://github.com/Sir-Olexander/Percorsi) <sub>(two-person collaboration)</sub> | Co-developer: owned the backend, security, authentication, billing, payments and UI while collaborating on the AI itinerary-generation integration. **Live:** perkorsi.com | Next.js · Supabase · Stripe · Groq · Expo |
 | 🔒 [Energy-System Optimization (Oxford OPEN)](https://github.com/aRocha27/EnergieInformatikPrject) | Scheduling flexible energy resources with Oxford's OPEN framework — MILP optimization for EV smart-charging, building HVAC, and a 10-house community battery on a 3-phase distribution network, with benchmark runs | Python · PICOS · pandapower · cvxopt |
 | 🔒 [Robotics Lab — Control & Simulation](https://github.com/aRocha27/Int.RoboticsKursB) | Hands-on robotics labs: PID control on Arduino/ELEGOO hardware, cart-pole and self-balancing-robot dynamics, and Husky rover navigation in Gazebo simulation | Arduino · Gazebo · ROS · Python |
 | 🔒 [Distributed Systems — RPC Framework](https://github.com/miguelrealinho/DistributedSystems) <sub>(group project)</sub> | A custom RPC framework — JavaCC parser-compiled message grammar, JSON serialization, client/server stubs, and a registry-based robot-coordination demo | Java · JavaCC · Jackson |
@@ -46,14 +54,14 @@
 
 ## 🎓 Education
 
-- **BSc in Computer Science Engineering — European Programme** — Instituto Politécnico de Coimbra, Portugal (expected March 2027)
-- **Erasmus+ (EU mobility programme)** — HAW Hamburg, Germany (2025–2026)
+- **BSc in Computer Science Engineering — European Programme** — Instituto Politécnico de Coimbra, Portugal (expected May 2027)
+- **European Computer Science — HAW Hamburg**, Germany (2025–2027)
   - Coursework: AI Engineering, Introduction to Robotics, Distributed Systems, Energy Informatics
   - Thesis: *Distributed AI for Public Procurement Audit* — Benford's Law anomaly detection over Portuguese public-procurement data (Python, DuckDB, scipy)
 
 ## 🌍 Languages
 
-Portuguese (native) · English (C1) · German (A1.2, actively learning)
+Portuguese (native) · English (C1) · German (B1) · Spanish
 
 ---
 
