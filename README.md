@@ -12,13 +12,6 @@
 
 ---
 
-I'm an AI/ML and full-stack engineer who actually ships — from a monetized
-production SaaS to a local-first AI agent OS with hash-chained audit logs and a
-hand-implemented transformer in PyTorch. I work **security-first** by instinct:
-TOCTOU-safe billing with Postgres advisory locks, prompt-injection defenses, and
-the discipline to know what *not* to ship. I'm motivated by honest,
-well-architected AI that reaches production — not demos.
-
 ## 🚀 Featured Projects
 
 ### Public
