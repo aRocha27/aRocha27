@@ -14,9 +14,9 @@
 
 ## 💼 Relevant Experience
 
-### OMP — Orders Management Platform · Bruker Portugal
+### Orders Management Platform (OMP) — private professional engagement
 
-Independently designed, architected and built a production order-management application used by Bruker Portugal. The platform modernizes workflows for orders, clients, invoicing, recognition, reports and administration, with a responsive React/Vite frontend, Node.js/Express backend, SQL Server integration, role-aware workflows, validation and Docker deployment.
+Independently designed, architected and built a production order-management application for a real customer (private). The platform modernizes workflows for orders, clients, invoicing, recognition, reports and administration, with a responsive React/Vite frontend, Node.js/Express backend, SQL Server integration, role-aware workflows, validation and Docker deployment. A sanitized public/demo build of the same application is linked below.
 
 ---
 
@@ -26,6 +26,7 @@ Independently designed, architected and built a production order-management appl
 
 | Project | What it is | Stack |
 |---|---|---|
+| [`omp`](https://github.com/aRocha27/omp) | Paperfold (OMP) — Orders Management Platform. Public/demo build of a real order-management system: responsive React/Vite frontend, Node/Express + Microsoft SQL Server backend, role-aware workflows, server-side validation, parameterized SQL, Dockerized end-to-end. **Status:** functional, sanitized for public demonstration | TypeScript · React/Vite · Node/Express · SQL Server · Docker |
 | [`atlas-agent-os`](https://github.com/aRocha27/atlas-agent-os) | Local-first AI agent orchestration OS — layered permission pipeline (Tool Gateway → Permission Broker → Guardian), SHA-256 hash-chained append-only audit log with verifier, streaming Ollama tool-use with capability-scored agent assignment. **Status:** active, ~18k LOC, 26/26 Vitest tests passing, containment tests enforce no module-level `child_process` | TypeScript · Node/Express · Next.js · SQLite |
 | [`llm-from-scratch`](https://github.com/aRocha27/llm-from-scratch) | Transformer built from scratch in PyTorch — character tokenizer, sinusoidal positional encoding, single-head self-attention, causal masking, pre-norm GPT blocks, LM head + next-token loss. No `nn.MultiheadAttention`/`nn.Transformer`. **Status:** single-head forward pass complete and verified end-to-end (`uv run python main.py`); 10-step pipeline documented with 4 architecture diagrams; training loop and multi-head attention are next | Python · PyTorch · NumPy |
 | [`rocha-tea`](https://github.com/aRocha27/rocha-tea) | Tea e-commerce MVP — server-validated Stripe checkout, Supabase RLS schema, and a hand-written GLSL silk-flow shader on the marketing site | Express · Supabase · Stripe · Next.js · Three.js |
@@ -36,6 +37,7 @@ Independently designed, architected and built a production order-management appl
 
 | Project | What it is | Stack |
 |---|---|---|
+| 🔒 OMP-Bruker (private repo, no link) | Company-grade fork of [`omp`](https://github.com/aRocha27/omp) deployed in production for a real customer. Includes Factory_BK tracking, Kit_Close lifecycle, tri-state Kit badges, role/permission hardening and a mobile-responsive layout. Source code, deployment topology and customer-specific data are private. | TypeScript · React/Vite · Node/Express · SQL Server · Docker |
 | 🔒 [Percorsi — AI Travel Planner SaaS](https://github.com/Sir-Olexander/Percorsi) <sub>(two-person collaboration)</sub> | Co-developer: owned the backend, security, authentication, billing, payments and UI while collaborating on the AI itinerary-generation integration. **Live:** perkorsi.com | Next.js · Supabase · Stripe · Groq · Expo |
 | 🔒 [Energy-System Optimization (Oxford OPEN)](https://github.com/aRocha27/EnergieInformatikPrject) | Scheduling flexible energy resources with Oxford's OPEN framework — MILP optimization for EV smart-charging, building HVAC, and a 10-house community battery on a 3-phase distribution network, with benchmark runs | Python · PICOS · pandapower · cvxopt |
 | 🔒 [Robotics Lab — Control & Simulation](https://github.com/aRocha27/Int.RoboticsKursB) | Hands-on robotics labs: PID control on Arduino/ELEGOO hardware, cart-pole and self-balancing-robot dynamics, and Husky rover navigation in Gazebo simulation | Arduino · Gazebo · ROS · Python |
