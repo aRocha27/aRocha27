@@ -2,7 +2,7 @@
 
 <p align="center">
   <em>Computer Science Engineering student · AI systems, software architecture & full-stack development</em><br/>
-  Hamburg, DE 🇩🇪 · Coimbra, PT 🇵🇹
+  Hamburg, DE 🇩🇪 · Lisbon, PT 🇵🇹
 </p>
 
 <p align="center">
